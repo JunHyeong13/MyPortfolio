@@ -1,8 +1,8 @@
-from cvzone.HandTrackingModule import HandDetector
 import cv2
+from cvzone.HandTrackingModule import HandDetector
 import socket
-import mediapipe as mp
- 
+# import mediapipe as mp
+
 cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
 cap.set(4, 720)
@@ -18,7 +18,7 @@ while True:
     success, img = cap.read()
     # Find the hand and its landmarks
     hands, img = detector.findHands(img)  # with draw
-    # hands = detector.findHands(img, draw=False)  # without draw
+    hands = detector.findHands(img, draw=False)  # without draw
     data = []
  
     if hands:
@@ -32,4 +32,4 @@ while True:
  
     # Display
     cv2.imshow("Image", img)
-    cv2.waitKey(1)
+    cv2.waitKey()
