@@ -1,7 +1,7 @@
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 import socket
-# import mediapipe as mp
+#import mediapipe as mp
 
 cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
