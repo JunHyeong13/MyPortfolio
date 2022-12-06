@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mygit:
+    image: mygit
+    build:
+      context: .
+      dockerfile: ./Dockerfile
