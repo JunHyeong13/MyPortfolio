@@ -274,26 +274,26 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Purchasing">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -661,20 +661,32 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -691,41 +703,35 @@
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Monetization">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>/Users/jojunhyeong/Documents/GitHub/HCI/무제/MyPortfolio/Roll_A_Ball/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
