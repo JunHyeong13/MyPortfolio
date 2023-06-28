@@ -27,9 +27,9 @@ public class PlayerMovement : MonoBehaviour
         isJumping = false;
 
         count = 0;
-        //SetCountText();
+        SetCountText();
 
-        //winTextObject.SetActive(false);
+        winTextObject.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             count += 1;
 
             // when the player touched the other gameobj
-            //SetCountText();
+            SetCountText();
         }
 
         // 땅에 닿아 있는 것이 아니라면, 점프를 계속 하지 못하도록 함.
@@ -85,14 +85,14 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void SetCountText()
+    {
+        counttext.text = "Count" + count.ToString();
 
-    //void SetCountText()
-    //{
-    //    counttext.text = "Count" + count.ToString();
-
-    //    if(count >=12)
-    //    {
-    //        winTextObject.SetActive(true);
-    //    }
-    //}
+        // count 개수가 12개 이상이 되었을 때, 게임을 종료하는 메서드를 보여줌
+        if (count >= 12)
+        {
+            winTextObject.SetActive(true);
+        }
+    }
 }
