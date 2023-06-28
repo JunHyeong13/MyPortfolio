@@ -2,21 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
     //public GameObject player;
     private Rigidbody m_rigidbody;
+
+    // To show the score text
+    public TextMeshProUGUI counttext;
+    public GameObject winTextObject;
+
     public float MoveSpeed = 10f;
     public float Jump = 10f;
     private float movementx;
     private float movementy;
+
     bool isJumping;
+    private int count;
 
     void Start()
     {
         m_rigidbody = GetComponent<Rigidbody>();
         isJumping = false;
+
+        count = 0;
+        //SetCountText();
+
+        //winTextObject.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
@@ -58,6 +71,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
+
+            count += 1;
+
+            // when the player touched the other gameobj
+            //SetCountText();
         }
 
         // 땅에 닿아 있는 것이 아니라면, 점프를 계속 하지 못하도록 함.
@@ -66,4 +84,15 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
         }
     }
+
+
+    //void SetCountText()
+    //{
+    //    counttext.text = "Count" + count.ToString();
+
+    //    if(count >=12)
+    //    {
+    //        winTextObject.SetActive(true);
+    //    }
+    //}
 }
